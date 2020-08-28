@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.central {
+  margin-top: 60px;
+  font-family: 'Architects Daughter', cursive; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box-principal { 
+  border-radius: 0px;  
+  width: 500px;  
+  background: rgb(255, 255, 255);
+  margin-top: 17px;  
+  font-size: 30px;  
+  border: 1px solid lightslategray;
 }
+
+.header {
+  text-align: center;
+  font-size: 70px;
+  color: #02da14;
+  text-decoration: underline;  
+}
+
+.form-group{
+  display: flex;
+  justify-content: center;
+}
+
+.form-control {
+  margin-top: 20px;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.list {  
+  width: 390px;   
+  color: #575555;
+  margin-left: 15px; 
+}
+
+.separate {
+  display: inline-flex;
+  align-items: flex-start;    
+  justify-content: start;  
+  color: transparent;
+  width: 100%;
+  margin: -20px 0 0px 0px;
+}
+
+.separate:hover {
+  color: #575555;
+  border: 1px solid lightslategray;
+  border-right-style: none;
+  border-left-style: none; 
+}
+
+.footer {
+  text-align: center;
+  font-size: 15px;
+  border: 1px solid lightslategray;
+  border-left-style: none;
+  border-bottom-style: none;
+  border-right-style: none;
+  margin-top: 10px;
+  color: #02da14;
+}
+
+.deleter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #575555;
+  border: 1px solid lightslategray;
+  border-right-style: none;
+  border-left-style: none; 
+  height: 30px;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
